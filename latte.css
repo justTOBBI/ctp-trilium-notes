@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/custom/fonts/raleway.woff2') format('woff2');
+  }
+  
+    :root {
+        --rosewater: #dc8a78;
+        --flamingo: #dd7878;
+        --pink: #ea76cb;
+        --mauve: #8839ef;
+        --red: #d20f39;
+        --maroon: #e64553;
+        --peach: #fe640b;
+        --yellow: #df8e1d;
+        --green: #40a02b;
+        --teal: #179299;
+        --sky: #04a5e5;
+        --sapphire: #209fb5;
+        --blue: #1e66f5;;
+        --lavender: #7287fd;
+        --text: #4c4f69;
+        --subtext1: #5c5f77;
+        --subtext0: #6c6f85;
+        --overlay2: #7c7f93;
+        --overlay0: #9ca0b0;
+        --surface2: #acb0be;
+        --surface1: #bcc0cc;
+        --surface0: #ccd0da;
+        --base: #eff1f5;
+        --mantle: #e6e9ef;
+        --crust: #dce0e8;
+    }
+
+
+  :root {  
+      --main-background-color: var(--base);
+      --main-text-color: var(--text);
+      --main-border-color: var(--overlay0);
+      --accented-background-color: var(--mantle);
+      --more-accented-background-color: var(--crust);
+      --header-background-color: var(--mantle);
+      --button-background-color: var(--mantle);
+      --button-disabled-background-color: var(--surface0);
+      --button-border-color: var(--overlay0);
+      --button-text-color: var(--subtext0);
+      --button-border-radius: 2px;
+      --primary-button-background-color: var(--overlay0);
+      --primary-button-text-color: var(--text);
+      --primary-button-border-color: var(--overlay2);
+      --muted-text-color: var(--subtext1);
+      --input-text-color: var(--text);
+      --input-background-color: var(--surface0);
+      --hover-item-text-color: var(--text);
+      --hover-item-background-color: var(--surface2);
+      --active-item-text-color: var(--text);
+      --active-item-background-color: var(--blue);
+      --menu-text-color: var(--text);
+      --menu-background-color: var(--surface0);
+      --tooltip-background-color: var(--overlay2);
+      --link-color: var(--blue);
+      --modal-background-color: var(--surface0);
+      --modal-backdrop-color: var(--crust);
+      --scrollbar-border-color: rgba(175, 184, 198, 0.5);
+      
+      --left-pane-background-color: var(--surface0);
+      --left-pane-text-color: var(--text);
+      --launcher-pane-background-color: var(--crust);
+      --launcher-pane-text-color: var(--text);
+      --launcher-pane-hover-color: var(--surface2);
+      
+      --inactive-tab-text-color: var(--subtext0);
+      --inactive-tab-background-color: var(--surface0);
+      --inactive-tab-hover-background-color: var(--surface1);
+      --active-tab-text-color: var(--text);
+      --active-tab-background-color: var(--surface1);
+      --active-tab-hover-background-color: var(--surface2);
+  }
+  
+  body .note-detail-text {
+      font-size: 120%;
+  }
+  
+  body .CodeMirror {
+      filter: invert(100%) hue-rotate(180deg);
+  }
+
+  .CodeMirror-linenumber {
+      color: var(--subtext0);
+  }
