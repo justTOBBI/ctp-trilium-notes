@@ -6,35 +6,45 @@
   }
   
     :root {
-        --rosewater: #dc8a78;
-        --flamingo: #dd7878;
-        --pink: #ea76cb;
-        --mauve: #8839ef;
-        --red: #d20f39;
-        --maroon: #e64553;
-        --peach: #fe640b;
-        --yellow: #df8e1d;
-        --green: #40a02b;
-        --teal: #179299;
-        --sky: #04a5e5;
-        --sapphire: #209fb5;
-        --blue: #1e66f5;;
-        --lavender: #7287fd;
-        --text: #4c4f69;
-        --subtext1: #5c5f77;
-        --subtext0: #6c6f85;
-        --overlay2: #7c7f93;
-        --overlay0: #9ca0b0;
-        --surface2: #acb0be;
-        --surface1: #bcc0cc;
-        --surface0: #ccd0da;
-        --base: #eff1f5;
-        --mantle: #e6e9ef;
-        --crust: #dce0e8;
+        --rosewater: #f2d5cf;
+        --flamingo: #eebebe;
+        --pink: #f4b8e4;
+        --mauve: #ca9ee6;
+        --red: #e78284;
+        --maroon: #ea999c;
+        --peach: #ef9f76;
+        --yellow: #e5c890;
+        --green: #a6d189;
+        --teal: #83c9bf;
+        --sky: #99d1db;
+        --sapphire: #84c0db;
+        --blue: #8ca9ee;;
+        --lavender: #bbbcf1;
+        --text: #c7cfef;
+        --subtext1: #b6bedd;
+        --subtext0: #a6adc9;
+        --overlay2: #949bb8;
+        --overlay0: #737891;
+        --surface2: #62677f;
+        --surface1: #51566c;
+        --surface0: #404459;
+        --base: #303446;
+        --mantle: #292c3d;
+        --crust: #232634;
+
+        --accent: var(--blue);
     }
 
 
-  :root {  
+  :root {
+      --main-font-family: 'Raleway' !important;
+      --main-font-size: normal;
+      --tree-font-family: inherit;
+      --tree-font-size: normal;
+      --detail-font-family: inherit;
+      --detail-font-size: normal;
+      --detail-text-font-family: 'Garamond' !important;
+  
       --main-background-color: var(--base);
       --main-text-color: var(--text);
       --main-border-color: var(--overlay0);
